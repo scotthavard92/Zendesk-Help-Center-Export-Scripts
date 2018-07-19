@@ -38,7 +38,7 @@ The requests library suggests use of Python 3. Scripts will reflect subtle diffe
 
 !!! - As it currently stands, the scripts print a ONE COLUMN .csv. This means if you run the script to print titles, all that will be returned is a list of titles.
 
-This being said, if you don't change the endpoing (i.e. `GET /api/v2/help_center/en-us/articles.json?sort_by=updated_at&sort_order=asc`), then the multiple exported csv's WILL LINE UP.
+This being said, if you don't change the endpoint (i.e. `/api/v2/help_center/en-us/articles.json?sort_by=updated_at&sort_order=asc`), then the multiple exported csv's WILL LINE UP.
 
 This means that if you run the script for id's, then run the script for titles, all you will need to do is copy and paste the two outputs into a spreadsheet and they will correspond correctly. 
 
