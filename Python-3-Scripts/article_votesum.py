@@ -2,6 +2,7 @@ import requests
 import csv
 import unicodedata
 
+
 # Set the request parameters
 # Change the URL according to what information is desired. 
 url = 'https://yoursubdomain.zendesk.com/api/v2/help_center/en-us/articles.json?sort_by=title&sort_order=asc'
@@ -20,8 +21,8 @@ while url:
 	response = requests.get(url, auth = (user, pwd))
 	data = response.json()
 	for article in data['articles']:
-		title = article['title']
-		decode = unicodedata.normalize('NFKD', title).encode('ascii','ignore')
+		vote_sum = article['vote_sum']
+		decode = int(vote_sum)
 		output.append(decode)
 	print(data['next_page'])
 	url = data['next_page']
@@ -33,4 +34,4 @@ print (len(output))
 #Write to a csv file
 with open(csvfile, 'w') as fp:
     writer = csv.writer(fp, dialect = 'excel')
-    writer.writerows([output])
+    writer.writerows([output]) 

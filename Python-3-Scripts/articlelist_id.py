@@ -9,7 +9,7 @@ url = 'https://yoursubdomain.zendesk.com/api/v2/help_center/en-us/articles.json?
 
 # Use Your Zendesk Support Sign-On Credentials
 user = 'ZD Username'
-pwd = 'ZD Passwword'
+pwd = 'ZD Password'
 
 # Path of the outputted csv file
 csvfile = 'localpath/filename.csv'
@@ -32,6 +32,6 @@ print("Number of articles:")
 print (len(output))
 
 #Write to a csv file
-with open(csvfile, 'wb') as fp:
+with open(csvfile, 'w') as fp:
     writer = csv.writer(fp, dialect = 'excel')
     writer.writerows([output]) 
