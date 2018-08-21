@@ -12,7 +12,7 @@ This process can be a little rough, so any contributions, notes, feedback, etc. 
 * [Python 3](https://www.python.org/downloads/) (preferred)
 * Python 2
 * [Requests](http://docs.python-requests.org/en/master/)
-* [pandas](https://pandas.pydata.org/)
+* [pandas](https://pandas.pydata.org/) (Not required, but helpful for data manipulation if you edit scripts)
 
 ### How to Use
 The process to use these scripts can be arduous. Once everything is set up, however, it is easy to run the script many times.
@@ -24,13 +24,12 @@ As the scripts are currently written in Python, Python is the first necesarry in
 With `pip` installed, it is easy to install the necessarry libraries.
 
 1. Go to the command line.
-2. Run `pip install pandas`.
-3. Run `pip install requests`.
-4. Download the scripts contained in this repository.
-5. Edit the components in the script! Most important are the Zendesk credentials.
-6. Navigate to the directory where the script is located (for example, if it were located on the desktop, run `cd /users/yourname/desktop`).
-7. Run `python articleid.py` (or whatever script you are running).
-8. The .csv file with the list of article titles, article id's, etc. will be created in the current directory.
+2. Run `pip install requests`.
+3. Download the scripts contained in this repository.
+4. Edit the components in the script! Most important are the Zendesk credentials.
+5. Navigate to the directory where the script is located (for example, if it were located on the desktop, run `cd /users/yourname/desktop`).
+6. Run `python articleid.py` (or whatever script you are running).
+7. The .csv file with the list of article titles, article id's, etc. will be created in the current directory.
 
 
 ### Notes
