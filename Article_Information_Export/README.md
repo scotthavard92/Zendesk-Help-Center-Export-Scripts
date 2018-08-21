@@ -1,4 +1,4 @@
-# Guide Data Export
+# Zendesk Guide Data Export
 
 ## Overview
 The python script in this folder will export a .csv file with the following rows:
@@ -17,10 +17,9 @@ View this video for video instructions.
 
 1. Go to the command line.
 2. Run `pip install requests`.
-3. Download the scripts contained in this repository.
-4. Edit the components in the script! Most important are the Zendesk credentials.
+3. Download the script contained in this repository.
 5. Navigate to the directory where the script is located (for example, if it were located on the desktop, run `cd /users/yourname/desktop`).
-6. Run `python articleid.py` (or whatever script you are running).
-7. The .csv file with the list of article titles, article id's, etc. will be created in the current directory.
+6. Run `python Zendesk_Guide_Article_Export.py` 
+7. The .csv file will be created in the current directory.
 
 ## Output Example
