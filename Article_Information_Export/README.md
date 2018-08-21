@@ -23,4 +23,4 @@ View this video for video instructions.
 7. The .csv file will be created in the current directory.
 
 ## Output Example
-![alt text](https://monosnap.com/file/D159nevBEvchajbA6Hows1aKGCUOgt)
+![Alt text](https://monosnap.com/image/D159nevBEvchajbA6Hows1aKGCUOgt.png)
