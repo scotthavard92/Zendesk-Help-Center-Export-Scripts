@@ -10,6 +10,8 @@ The python script in this folder will export a .csv file with the following rows
 * Author ID
 * Section ID
 
+These are defined in the [Help Center API docs](https://developer.zendesk.com/rest_api/docs/help_center/articles)
+
 The python script will automatically write the .csv file to the current directory from where the script is being executed.
 
 ## Instructions 
