@@ -24,5 +24,11 @@ View this video for video instructions.
 6. Run `python Zendesk_Guide_Article_Export.py` 
 7. The .csv file will be created in the current directory.
 
+
+## Video Instructions
+View this video for video instructions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nGYQwV-kpyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Output Example
 ![Alt text](https://monosnap.com/image/D159nevBEvchajbA6Hows1aKGCUOgt.png)
