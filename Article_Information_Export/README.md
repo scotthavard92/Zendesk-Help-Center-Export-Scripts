@@ -26,9 +26,7 @@ View this video for video instructions.
 
 
 ## Video Instructions
-View this video for video instructions.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nGYQwV-kpyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+View this [video](https://youtu.be/nGYQwV-kpyE) for video instruction.
 
 ## Output Example
 ![Alt text](https://monosnap.com/image/D159nevBEvchajbA6Hows1aKGCUOgt.png)
