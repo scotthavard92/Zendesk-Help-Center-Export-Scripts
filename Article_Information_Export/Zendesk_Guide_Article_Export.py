@@ -31,6 +31,8 @@ output_6 = []
 output_6.append("Author ID")
 output_7 = []
 output_7.append("Section ID")
+output_8 = []
+output_8.append("Draft (True if Draft, False if not")
 while url:
         response = requests.get(url, auth = (user, pwd))
         data = response.json()
@@ -62,6 +64,10 @@ while url:
                 section_id = article['section_id']
                 decode_7 = int(section_id)
                 output_7.append(decode_7)
+        for article in data['articles']:
+                draft = article['draft']
+                decode_8 = bool(draft)
+                output_8.append(decode_8)
         print(data['next_page'])
         url = data['next_page']
 
@@ -84,4 +90,5 @@ with open(csvfile, 'w') as fp:
     writer.writerows([output_5])
     writer.writerows([output_6])
     writer.writerows([output_7])
+    writer.writerows([output_8])
 
