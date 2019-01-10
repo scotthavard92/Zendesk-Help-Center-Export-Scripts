@@ -33,6 +33,8 @@ output_7 = []
 output_7.append("Section ID")
 output_8 = []
 output_8.append("Draft (True if Draft, False if not")
+output_9 = []
+output_9.append("Updated At")
 while url:
         response = requests.get(url, auth = (user, pwd))
         data = response.json()
@@ -68,6 +70,10 @@ while url:
                 draft = article['draft']
                 decode_8 = bool(draft)
                 output_8.append(decode_8)
+        for article in data['articles']:
+                update_time = article['updated_at']
+                decode_9 = unicodedata.normalize('NFKD', update_time)
+                output_9.append(decode_9)
         print(data['next_page'])
         url = data['next_page']
 
@@ -91,4 +97,5 @@ with open(csvfile, 'w') as fp:
     writer.writerows([output_6])
     writer.writerows([output_7])
     writer.writerows([output_8])
+    writer.writerows([output_9])
 
