@@ -30,3 +30,8 @@ View this [video](https://youtu.be/nGYQwV-kpyE) for video instruction.
 
 ## Output Example
 ![Alt text](https://monosnap.com/image/D159nevBEvchajbA6Hows1aKGCUOgt.png)
+
+## Exporting Internal Articles Using OAuth
+You must use an OAuth token to export every article in your Knowledgebase, including non-public ones. To obtain a Zendesk OAuth token visit [their API developer console](https://developer.zendesk.com/requests/new), enter your subdomain, then click "authorize". 
+
+Instead of running Zendesk_Guide_Article_Export.py, run OAuth_Full_Export.py. Enter the token obtained from the developer portal when prompted by the script as opposedto the basic authentication credentials. 
