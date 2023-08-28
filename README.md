@@ -29,7 +29,7 @@ To run a script from this repository:
 5. Edit the the scripts in this repository. Most important are the Zendesk credentials.
 6. Navigate to the directory where the script is located (for example, if it were located on the desktop, run `cd /users/yourname/desktop`).
 7. Run `python articleid.py` (or whatever script you are running).
-8. The .csv file with the list of article titles, article id's, etc. will be created in the current directory.
+8. The `.csv` file with the list of article titles, article id's, etc. is created in the current directory.
 
 *Feel lost?*
 If you are unsure of where to start, use the [Article_Information_Export](https://github.com/scotthavard92/Zendesk-Help-Center-Export-Scripts/tree/master/Article_Information_Export) script. There is a corresponding [YouTube video walkthrough](https://www.youtube.com/watch?v=nGYQwV-kpyE). 
