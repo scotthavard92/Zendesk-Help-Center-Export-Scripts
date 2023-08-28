@@ -1,21 +1,21 @@
 # Zendesk Guide Article Data Export
 
-### Summary
+## Summary
 Using the [Zendesk Help Center API](https://developer.zendesk.com/rest_api/docs/help_center/introduction) is challenging but often necessary as a Zendesk Guide content curator.
 
 Exporting Zendesk Guide data requires use of this API. The Python scripts included in this repository
 exports the data to a `.csv` file. This facilitates more control over Zendesk Guide Help Center information through access to actionable data.
 
-## Feedback is welcome
+### Feedback is welcome
 The process can be a little arduous, so any contributions, notes, feedback, etc. on this repository is greatly appreciated!
 
-### Dependencies
+## Dependencies
 * [Python 3](https://www.python.org/downloads/) (preferred)
 * Python 2
 * [Requests](http://docs.python-requests.org/en/master/)
 * [pandas](https://pandas.pydata.org/) 
 
-### Instructions
+## Instructions
 The scripts are currently written in Python. Python is therefore the first necesarry installation (see above).
 
 `pip` is one way to install the necessary components. These instructions assume the use of `pip`. You can install `pip` [by following instructions in the documentation](https://pip.pypa.io/en/stable/installing/).
@@ -31,7 +31,7 @@ After
 7. The .csv file with the list of article titles, article id's, etc. will be created in the current directory.
 
 
-### Notes
+## Notes
 The Requests library suggests use of Python 3. 
 
 As it currently stands, the scripts outside of the Article_Information_Export folder returns information as one column within a `.csv` file. For example, if you run the script to print titles then the return is only a list of titles.
