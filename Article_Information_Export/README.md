@@ -12,7 +12,7 @@ The python script in this folder will export a .csv file with the following rows
 
 These are defined in the [Help Center API docs](https://developer.zendesk.com/rest_api/docs/help_center/articles).
 
-The python script will automatically write the .csv file to the current directory from where the script is being executed.
+The python script will automatically write the `.csv` file to the current directory from where the script is being executed.
 
 ## Instructions 
 View this video for video instructions.
@@ -22,7 +22,7 @@ View this video for video instructions.
 3. Download the script contained in this repository.
 5. Navigate to the directory where the script is located (for example, if it were located on the desktop, run `cd /users/yourname/desktop`).
 6. Run `python Zendesk_Guide_Article_Export.py` 
-7. The .csv file will be created in the current directory.
+7. The `.csv` file will be created in the current directory.
 
 
 ## Video Instructions
