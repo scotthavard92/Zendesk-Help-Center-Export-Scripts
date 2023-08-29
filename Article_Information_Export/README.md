@@ -15,7 +15,6 @@ These are defined in the [Help Center API docs](https://developer.zendesk.com/re
 The python script will automatically write the `.csv` file to the current directory from where the script is being executed.
 
 ## Instructions 
-View this video for video instructions.
 
 1. Go to the command line.
 2. Run `pip install requests`.
