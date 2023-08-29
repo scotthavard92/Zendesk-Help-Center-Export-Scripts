@@ -2,7 +2,7 @@
 
 ## Summary
 Exporting Zendesk Guide data requires use of the [Zendesk Help Center API](https://developer.zendesk.com/rest_api/docs/help_center/introduction). The Python scripts included in this repository
-exports the data to a `.csv` file. This facilitates more control over Zendesk Guide Help Center information through access to actionable data.
+export data to a `.csv` file. This facilitates more control over Zendesk Guide Help Center information through access to actionable data.
 
 **Feedback is Welcome**\
 The process can be a little arduous, so any contributions, notes, feedback, etc. on this repository is greatly appreciated!
