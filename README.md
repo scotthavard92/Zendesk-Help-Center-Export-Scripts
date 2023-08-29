@@ -37,4 +37,4 @@ If you are unsure of where to start, use the [Article_Information_Export](https:
 ## Notes
 The Requests library suggests use of Python 3 over Python 2. 
 
-[Follow the Zendesk API guide to edit the scripts](https://developer.zendesk.com/rest_api/docs/help_center/articles)
+[Follow the Zendesk API guide to edit the scripts](https://developer.zendesk.com/rest_api/docs/help_center/articles).
